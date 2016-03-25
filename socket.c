@@ -79,7 +79,3 @@ bool socket_recive(socket_t *skt, char *buffer, int len){
 bool socket_close(socket_t *skt){
 	return !(close(skt->skt_fd) == -1);
 }
-
-int main(){
-	return 0;
-}
